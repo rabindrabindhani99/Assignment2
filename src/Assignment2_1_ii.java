@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Assignment2_1_i
+public class Assignment2_1_ii
 {
     public static void main(String[] args) {
         int n,r,sum=0;
@@ -10,9 +10,12 @@ public class Assignment2_1_i
         while(n>0)
         {
             r=n%10;
-            sum=sum+r;
+            if(r%2==0)
+            {
+                sum = sum + r;
+            }
             n=n/10;
         }
-        System.out.println("The sum of the digits is: "+sum);
+        System.out.println("The sum of even digits is: "+sum);
     }
 }

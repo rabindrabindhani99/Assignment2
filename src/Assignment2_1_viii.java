@@ -22,6 +22,6 @@ public class Assignment2_1_viii
                     }
             }
         }
-        System.out.println("Sum of the product of the consecutive numbers: "+sum);
+        System.out.println("Sum of the product of the consecutive even numbers: "+sum);
     }
 }

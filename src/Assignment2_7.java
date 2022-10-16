@@ -10,6 +10,7 @@ public class Assignment2_7
         n= scan.nextInt();
 
         System.out.println("Choose the method of factorial.\nFor the use of while loop enter 1.\nFor the use of do while loop enter 2.\nFor the use of for loop enter 3.");
+        System.out.println("Enter the choice for the method:");
         choose=scan.nextInt();
         int temp=n;
         switch (choose)

@@ -14,7 +14,7 @@ public class Assignment2_12_a
         smallest=Integer.parseInt(args[0]);
         for(int i=0;i< args.length;i++)
         {
-            if(Integer.parseInt(args[i])<greatest)
+            if(Integer.parseInt(args[i])<smallest)
             {
                 smallest=Integer.parseInt(args[i]);
             }
